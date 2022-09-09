@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family:'Montserrat';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Home Page */
+.home {
+  display: flex;
+  flex-direction: column;
+  div {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div:nth-child(1) {
+    background-image: radial-gradient(white 5.66%, #BCECB5 94.35%);
+  }
+  div:nth-child(2) {
+    background-image: radial-gradient(white 5.66%, #A7C7E7 94.35%);
+  }
+}
